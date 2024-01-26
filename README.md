@@ -39,3 +39,11 @@ Deux scripts sont disponibles :
 2. Exécutez `npm install` pour installer les dépendances.
 3. Utilisez `npm run build` pour générer les fichiers dans le dossier `dist`.
 4. Ouvrez le fichier `dist/index.html` dans votre navigateur pour visualiser l'application.
+
+### Watcher Webpack
+Le watcher Webpack a été activé pour faciliter le développement continu. Lorsque vous utilisez `npm run watch`, Webpack surveille les changements dans votre code source. Dès qu'un changement est détecté, il déclenche automatiquement une recompilation, mettant à jour les fichiers résultants dans le dossier `dist`. Cela permet une expérience de développement fluide et réactive.
+
+
+
+
+
