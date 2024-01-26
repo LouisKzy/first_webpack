@@ -1,0 +1,60 @@
+// Importe Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: 'Starborn';
+  src: url('../assets/fonts/Starborn.ttf');
+}
+
+$color-purple: rgb(170, 7, 252);
+$color-grey: rgb(105, 105, 105);
+$color-green: rgb(12, 122, 12);
+$color-pink: pink;
+
+.moche {
+  p {
+    color: $color-green;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+
+.rebel {
+  p {
+    color: $color-pink;
+    font-family: 'Starborn';
+  }
+  p {
+    color: $color-pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Starborn';
+  color: $color-purple;
+}
+body {
+  background-image: url('../assets/images/ciel_cosmic.jpg');
+  
+}
+
+#fun-alert {
+  background-color: rgb(255, 127, 127);
+  p {
+    font-family: 'Starborn';
+    margin: auto;
+    color: $color-purple;
+  }
+}
+#alert-container {
+  background-color: rgb(255, 127, 127);
+  p {
+    margin: auto;
+    color: $color-grey;
+  }
+}

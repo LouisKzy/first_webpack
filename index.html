@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Webpack</title>
+    <!-- Dans le <head> -->
+    <link rel="stylesheet" href="./dist/bundle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-md m-3">
+        <div class="row-coljustify-content-center m-3">
+          <h1 class="text-center m-3">Bienvenue sur ma page test de Webpack !</h1>
+        </div>
+      </div>
+    </header>
+    <div class="container m-5">
+      <div class="row">
+        <div class="col">
+          <div class="moche">
+            <p class="text-center">Je devrais etre vert et basique</p>
+          </div>
+          <div class="rebel">
+            <p class="text-center">Pas moi car je suis belle et rebelle</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div id="alert-container" class="alert alert-dismissible fade show justify-content-center" role="alert">
+                <p class="text-center">Ceci est une alerte Bootstrap!</p>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div id="fun-alert" class="alert rebel alert-info alert-dismissible fade show justify-content-center" role="alert">
+                <p class="text-center">Ceci est une alerte Bootstrap en plus fun!</p>
+                <p class="text-center text-black">Avec un peux de bootstrap svp.</p>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+<!-- En bas du <body> -->
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
